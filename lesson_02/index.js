@@ -1,11 +1,26 @@
 'use strict';
 
-const productName = "Бананы";
-const productCount = 10;
-const productCategory = "Фрукты";
-const productPrice = 120;
+{
+  const productName = "Бананы";
+  const productCount = 10;
+  const productCategory = "Фрукты";
+  const productPrice = 120;
 
-const productTotalPrice = productPrice * productCount;
+  const productTotalPrice = productPrice * productCount;
 
-console.log(productName);
-console.log('Общая цена за товары:', productTotalPrice);
+  console.log(productName);
+  console.log('Общая цена за товары:', productTotalPrice);
+}
+
+
+{
+  const productName = "Капуста";
+  const productCount = 12;
+  const productCategory = "Овощи";
+  const productPrice = 65;
+
+  const productTotalPrice = productPrice * productCount;
+
+  console.log(productName);
+  console.log('Общая цена за товары:', productTotalPrice);
+}
